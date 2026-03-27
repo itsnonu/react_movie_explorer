@@ -1,6 +1,6 @@
 import React from "react";
 
-function pagination ({ currentPage, totalPages, pageChange}) {
+function Pagination ({ currentPage, totalPages, pageChange}) {
     return (
         <footer>
             <div className="pagination">
@@ -15,4 +15,4 @@ function pagination ({ currentPage, totalPages, pageChange}) {
     );
 }
 
-export default pagination;
+export default Pagination;

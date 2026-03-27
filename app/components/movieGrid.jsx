@@ -1,7 +1,7 @@
 import React from "react";
 import MovieCard from "./movieCard";
 
-function movieGrid({movies}) {
+function MovieGrid({movies}) {
     return (
         <div className="movie_grid">
             {movies.map((movie) => (
@@ -11,4 +11,4 @@ function movieGrid({movies}) {
     );
 }
 
-export default movieGrid;
+export default MovieGrid;

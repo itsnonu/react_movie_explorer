@@ -1,6 +1,6 @@
 import React from "react";
 
-function header({ searchQuery, searchChange, sortOption, sortChange}) {
+function Header({ searchQuery, searchChange, sortOption, sortChange}) {
     return (
         <header>
             <div className="controls">
@@ -26,4 +26,4 @@ function header({ searchQuery, searchChange, sortOption, sortChange}) {
     );
 }
 
-export default header;
+export default Header;
