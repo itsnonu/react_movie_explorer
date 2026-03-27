@@ -3,6 +3,7 @@ import React from "react";
 function Header({ searchQuery, searchChange, sortOption, sortChange}) {
     return (
         <header>
+            <h1>Movie Explorer</h1>
             <div className="controls">
                 <input
                     type="text"
